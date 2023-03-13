@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap" rel="stylesheet">
+      <title>blackJack21</title>
+      <link href='style.css' rel='stylesheet'>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="script.js" type="text/javascript" defer></script>
+    </head>
+  <body>
+    <header>black<a id="makeRed">Jack<a>21</header>
+      <div class="slogan">
+  	    <h1>Can You Beat The House?</h1>
+  	  </div>
+  	<div class ="houseCards">
+  	  <h3>House Cards: </h3>
+  	    <div id="houseCardsImages">
+  	      <img id="hiddenCard" src="./Playing Cards/CB.png">
+  	      <img id="shownCard" src="./Playing Cards/2C.png">
+  	    </div>
+  	</div>
+  	<div>
+  	<h3>House Score: <a id="houseScore"></a></h3></h3>
+  	</div>
+  	<div class="divider">
+  	</div>
+    <div class="playerCards">
+      <h3>Player Cards: </h3>
+        <div id="playerCardsImages">
+          <img id="playerCard1" src="./Playing Cards/JC.png">
+  	      <img id="playerCard2" src="./Playing Cards/3C.png">
+  	    </div>
+    </div>
+    <div>
+    <h3>Player Score: <a id="playerScore"></a></h3>
+    </div>
+    <div class="buttons">
+      <button id="hitme">Hit Me!</button>
+      <button id="stay">Stay</button>
+      <button id="again">Play Again!</button>
+    </div>
+    <div id="result">
+      <h1></h1>
+    </div>
+  </body>
+</html>
